@@ -1,11 +1,16 @@
 # Java
-
 CEPSERVICE
-
+<br/>
 Serviço de procura de Cep offline, procura por um determinado cep do Brasil 
-retornando seu respectivo estado,cidade,bairro e rua.
-Outras opções:
--Listar todas cidades de um determinado estado 
--Listar todas as ruas de uma cidade
--Listar todos os bairros de uma cidade
--Pesquisar um CEP aleatório
+retornando seu respectivo Endereco(estado,cidade,bairro e rua)<br/>
+Outras opções:<br/>
+-Listar todas cidades de um determinado estado <br/>
+-Listar todas as ruas de uma cidade<br/>
+-Listar todos os bairros de uma cidade<br/>
+-Pesquisar um CEP aleatório<br/>
+-Listar todos os Estados
+
+Ex de uso:<br/>
+<code>
+CepUtils.findCep(stringCep);
+</code>
